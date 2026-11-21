@@ -37,7 +37,6 @@ public class Server {
     try{
         Socket link = servSock.accept();
         clientConnections++;
-        String cID = "Client "+ clientConnections;
         Runnable resource = new ClientConnectionRun(link);
         Thread t = new Thread (resource);
         t.start();
