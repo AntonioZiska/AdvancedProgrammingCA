@@ -4,10 +4,6 @@
  */
 package com.mycompany.booking;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 /**
  *
  * @author anton
